@@ -1,0 +1,96 @@
+@font-face {
+    font-family: "Raleway";
+    src: url(fonts/Raleway-VariableFont_wght.ttf);
+}
+
+
+.service-24 h1, .service-24 h2, .service-24 h3, .service-24 h4, .service-24 h5, .service-24 h6 {
+    color: #3e4555;
+  }
+  
+  .service-24 .card.card-shadow {
+      -webkit-box-shadow: 0px 0px 30px rgba(115, 128, 157, 0.1);
+      box-shadow: 0px 0px 30px rgba(115, 128, 157, 0.1);
+  }
+  
+  .service-24 a {
+      text-decoration: none;
+  }
+  
+  .service-24 .card-hover:hover {
+        background: #4c0082;
+      background: -webkit-linear-gradient(legacy-direction(to right), #4c0082 0%, #000080 100%);
+      background: -webkit-gradient(linear, left top, right top, from(#4c0082), to(#000080));
+      background: -webkit-linear-gradient(left, #4c0082 0%, #000080 100%);
+      background: -o-linear-gradient(left, #4c0082 0%, #000080 100%);
+      background: linear-gradient(to right, #4c0082 0%, #000080 100%);
+  }
+  
+  .service-24 .card-hover:hover .bg-success-grediant {
+        color: #ffffff;
+      text-fill-color: #ffffff;
+      -webkit-text-fill-color: #ffffff;
+  }
+  
+  .service-24 .card-hover:hover .ser-title {
+      color: #ffffff;
+  }
+  
+  .service-24 .bg-success-grediant {
+          background: #4c0082;
+      background: -webkit-linear-gradient(legacy-direction(to right), #4c0082 0%, #000080 100%);
+      background: -webkit-gradient(linear, left top, right top, from(#4c0082), to(#000080));
+      background: -webkit-linear-gradient(left, #4c0082 0%, #000080 100%);
+      background: -o-linear-gradient(left, #4c0082 0%, #000080 100%);
+      background: linear-gradient(to right, #4c0082 0%, #000080 100%);
+      -webkit-background-clip: text;
+      background-clip: text;
+      -webkit-text-fill-color: transparent;
+      text-fill-color: transparent;
+      font-size: 50px;
+  }
+  
+  .service-24 .wrap-service-24 .card {
+      -o-transition: 0.3s ease-out;
+      transition: 0.3s ease-out;
+      -webkit-transition: 0.3s ease-out;
+  }
+  
+  .service-24 .wrap-service-24 .card:hover {
+      -ms-transform: translateY(-10px);
+      transform: translateY(-10px);
+      -webkit-transform: translateY(-10px);
+  }
+  
+  .service-24 .btn-outline-primary {
+          color: #4c0082 !important;
+      background-color: transparent;
+      border-color: #4c0082;
+  }
+  
+  .service-24 .btn-outline-primary:hover {
+          background: #4c0082;
+      border-color: #4c0082;
+      color: #ffffff !important;
+  }
+  
+  .service-24 .btn-md {
+      padding: 15px 45px;
+      font-size: 16px;
+  }
+  
+  .container-features{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .Do{
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Raleway";
+    padding-bottom: 10px;
+
+  }

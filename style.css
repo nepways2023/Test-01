@@ -1,0 +1,113 @@
+@font-face {
+    font-family: 'Airstrike';
+    src: url(fonts/airstrike/airstrike.ttf);
+}
+@font-face {
+    font-family: "Raleway";
+    src: url(fonts/Raleway-VariableFont_wght.ttf);
+}
+
+
+.section-header h3 {
+    font-size: 36px;
+    color: #283d50;
+    text-align: center;
+    font-weight: 500;
+    position: relative;
+}
+
+.section-header p {
+    text-align: center;
+    margin: auto;
+    font-size: 15px;
+    padding-bottom: 60px;
+    color: #556877;
+    width: 50%;
+}
+
+.nav-link{
+    position: relative;
+}
+
+.nav-link::after{
+    content: "";
+    opacity: 0;
+    transition: all 0.2s;
+    height: 2px;
+    width: 100%;
+    background-color: #798cd9;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+
+}
+
+.nav-link:hover::after{
+    opacity: 1;
+}
+
+.image{
+    margin-left: 3.4rem;
+}
+
+.nav-mar{
+    margin-right: 4rem;
+}
+
+header {
+	position: absolute;
+	z-index: 10;
+	width: 100vw;
+}
+.bg-light {
+	background-color: transparent !important;
+}
+.navbar-brand {
+	font-size: 2rem;
+	font-weight: 800;
+	text-transform: uppercase;
+    font-family: 'Airstrike';
+}
+
+.nav-item {
+	font-weight: 500;
+	text-transform: uppercase;
+    margin: 1rem;
+}
+
+.nav-item .nav-link:hover {
+	color: #798cd9 !important;
+    transform: scale(1.15);
+}
+
+.active {
+	color: #798cd9 !important;
+    transform: scale(1.15);
+}
+.hero {
+	position: relative;
+	min-height: 100vh;
+	background-size: cover;
+	background-position: center;
+    background-image: linear-gradient(to bottom, #4c00823b, #00008034),
+    url(https://images.unsplash.com/photo-1629131726692-1accd0c53ce0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80);;
+}
+
+.hero h1 {
+	font-size: 80px;
+	font-weight: 1000;
+	margin: 0;
+	padding: 0;
+    color: #461468;
+    font-family: "Raleway";
+}
+.hero p {
+	padding: 0;
+	margin: 1em 0 0 0;
+	font-size: 20px;
+	font-weight: 500;
+	text-align: justify;
+    color: #fff;
+    font-family: "Raleway";
+}
+  
